@@ -10,5 +10,17 @@ def factorialLoop(x):
         x-=1
     return result
 
+def gfactorial(n):
+  if n >= 1 :
+    return n*factorial(n-1)
+  else :
+    return 1
+
+def gloopfactorial(n):
+  x = 1
+  for i in range(1,n+1):
+    x *= i
+  return x
+
 print(factorial(120))
 print(factorialLoop(120))
