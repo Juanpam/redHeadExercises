@@ -38,7 +38,7 @@ def initialize():
 
     myTurtle.left(90)
     # branch(myTurtle, 80, 30)
-    tree(myTurtle, 240, 45)
+    tree(myTurtle, 240, 20)
 
     # So the screen waits till a click ocurrs to finish execution
     myScreen.exitonclick()
